@@ -1,0 +1,51 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+  body, html {
+    height: 100%;
+  }
+  
+  .container {
+    display: grid;
+    grid-template-rows: 75vh 25vh;
+    height: 100vh;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    background-color: #eae7e7;
+  }
+  
+  .welcome {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 30px;
+    background-image: url(amalfi.JPG);
+    padding: 20px;
+  }
+  
+  .welcome h1 {
+    font-size: 2.5rem;
+  }
+  
+  .profile-pic {
+    width: 180px;
+    height: 180px;
+    object-fit: cover;
+    border-radius: 50%;
+    border: 2px solid #ccc;
+  }
+  
+  .introduction {
+    background-color: #ffffff;
+    padding: 20px;
+    overflow-y: auto;
+  }
+  
+  .introduction h2 {
+    margin-bottom: 10px;
+  }
+  .Hobbies {
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  }
